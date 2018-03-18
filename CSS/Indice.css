@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower'); /*La fuente importada de Google Fonts **/
+
+    
+    
+
+body{
+    background-size:100vm 100vh;
+    background-attachment: fixed;
+    font-family:'Indie Flower', cursive;
+    color: white;
+    margin:0px;}
+
+
+
+#titulo {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+    text-align: center;
+    margin-top: 130px;
+    position:absolute;
+    margin-left: 370px;
+    
+    
+   
+
+}
+#titulo h3{
+    font-size: 24px;
+    margin:0px;
+}
+
+
+/* Estilos de la pagina 'sobre nosotros' **/
+
+.texto{margin-top:200;
+    margin-left: 350;
+    margin-right: 200;
+    font-size: 24px;
+    position:absolute;
+    padding-bottom: 100px;}
+.texto p{font-size: 18px;}
+.punteado{border-style: dashed;
+          padding-right: 300px;
+          margin-left: 0px;}
+
+/* Pie de página **/ 
+
+footer{background: rgba(0,0,0,0.5);
+       float:left;
+       margin-top:1700px;
+       margin-left: 166px;
+       padding-right:300px;
+       border-radius: 100px;
+       padding-top: 0px;
+       padding-bottom:0px;
+       }
+
+footer h2{
+    font-size: 18px; margin-left: 380px;
+text-align: center;}
+
+footer #pie{margin-top: 100px;}

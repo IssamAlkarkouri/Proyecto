@@ -1,0 +1,87 @@
+.form1 {
+    float:right;
+    width:47%;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    margin-top:290px;
+    margin-left: 30px;
+    margin-right:390px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-top:0px;
+    padding-bottom: 10px;}
+label{font-size: 18px;}
+
+form li {list-style: none;}
+
+form input#nombre{
+    margin-left: 64px;
+    height: 20px;
+    
+}
+form input#apellido{
+    margin-left: 51px;
+    height: 20px;
+}
+form input#campo{
+    margin-left:60px;
+    height: 20px;
+}
+
+   
+#hora{width:18%;
+      margin-left: 89px;
+      height: 20%;
+      padding-top:2px;}
+
+form #nombre, #apellido, #hora {margin-top: 15px;}
+
+li #fecha{width:18%;
+          margin-top: 15px;
+          margin-left: 80px;
+          padding-top:2px;
+          padding-right:10p}
+#msg{
+   display:block;
+    float:left;
+    margin-top: 30px;
+}
+
+select  {width: 52%;
+        margin-left: 74px;
+        margin-top: 15px;
+        font-family: 'Indie Flower', cursive !important;
+        text-decoration-style: solid;
+        font-size: 20px;}
+
+option{color: black;
+       font-family: 'Indie Flower', cursive !important;
+        text-decoration-style: solid;
+        font-size: 20px;}
+
+input #boton2{width:10%;}
+
+#boton2{
+    width: 52%;
+    background: rgba(0,0,0,0.4);
+    color:white;
+    font-family: 'Indie Flower', cursive !important;
+    font-size: 24px;
+    padding-right:0px;
+    padding-left:10px;
+    padding-top: 10px; 
+    padding-bottom:10px; 
+    margin-top: 50px;
+    margin-left:120px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+#boton2:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,108 @@
+.header_form h1{width:67%;
+                margin-top:200px;
+                margin-left:130px; 
+                float:left; 
+                margin-bottom: auto;
+                font-size: 36px;
+                position: relative;}
+
+/*Estilos para el formulario de contacto**/ 
+
+.form {
+    float:right;
+    width:67%;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    margin-top:120px;
+    margin-left: 34px;
+    margin-right:240px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-top:0px;
+    padding-bottom: 70px;
+    
+    
+}
+form h3{margin-left: 40PX;}
+form li {list-style: none;}
+
+.formulario p{font-size: 20px; 
+              margin-top:10px; 
+              margin-left: 300px;
+              padding-bottom:100x; 
+              margin-right: 200px; 
+              position: absolute;}
+
+/*Estilos de las casillas para llenar del formulario de contacto **/
+
+form input{margin-left: 60px;}
+form input, textarea{width:50%; padding-left:10px;}
+form textarea{min-height: 100px;
+              max-height: 300px;
+              max-width: 600px;
+              margin-left: 60px;}
+
+form input{margin-top: 10}
+form input#name{
+    margin-left: 64px;
+    
+}
+form input#email{
+    margin-left: 8px;
+}
+form input#subject{
+    margin-left:69px;
+}
+
+form textarea#message{
+    margin-left: 69px;
+    margin-top: 30px;
+   
+    }
+ 
+/* Estilo para el mensaje del formulario de contacto**/
+#message1{
+   display:block;
+    float:left;
+    margin-top: 30px;
+    
+    
+}
+
+/*Telefono y direccion de correo que se indica debajo del formulario de contacto**/
+
+div.contact{
+        position:relative;
+        padding-right: 120px; 
+}
+div.contact p{
+    margin-left:120px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.4); 
+}
+
+
+/*Estilo para el boton ENVIAR */
+
+#boton{
+    background: rgba(0,0,0,0.4);
+    color:white;
+    font-family: 'Indie Flower', cursive !important;
+    font-size: 24px;
+    padding: 10px;
+    margin-left:130;
+    margin-bottom: 5px;
+    
+    
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+hr{width: 66%;
+margin-left: 300px;
+border-style: dotted}

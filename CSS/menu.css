@@ -1,0 +1,55 @@
+
+/* Estilos para el menu **/ 
+ul#navigation{
+    width: 63%;
+    text-transform:uppercase;
+    display:inline; 
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    border-style:solid;
+    border-radius: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 130px;
+    
+    
+
+}
+ul#navigation li{
+        float:left;                                                
+        display:inline;
+        margin : 0 0 0 60px;
+        padding:0 0 0 10px;
+}
+ul#navigation li a{
+        font-family:'Indie Flower', cursive !important; 
+        color:white;
+        display:block; 
+        padding:16px 27px 12px 25px; 
+        text-decoration:none; 
+        color:white; 
+        font-size:18px; 
+        font-weight:bold;
+        text-align: center;
+        border-style:solid;
+        border-radius:200px;
+        }
+
+/* GIF del muñeco con el balón **/
+
+.balon {width: 10%; 
+    height: 23%; 
+    margin-top:px;
+    margin-right:12px;
+    margin-left: 0px;
+    margin-bottom:1px;
+    float:left; 
+    padding: 00px;
+    display: flex;
+    box-sizing: border-box;}
+
+ul#navigation li a:hover{
+    background-color:white;
+    color:darkgreen;
+    
+}

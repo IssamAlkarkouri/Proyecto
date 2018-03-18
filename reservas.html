@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lange:"es">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Reservas</title>
+        <link rel="stylesheet" type="text/css" href="CSS/Indice.css">
+        <link rel="stylesheet" type="text/css" href="CSS/menu.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Imagenes.css">
+        <link rel="stylesheet" type="text/css" href="CSS/formulario.css">
+        <link rel="stylesheet" type="text/css" href="CSS/fomularioReserva.css">
+    </head>
+        <body background="Imagenes/Fondo.jpg">
+  
+      <!-- GIF del muñeco con el balon -->
+      
+      <img src="Imagenes/balon-de-futbol-gif-10.gif" alt="Futbol" class="balon">
+      
+       
+       <!-- menu de navegacion -->
+       
+       <nav class="nav_menu">   
+        <ul id="navigation">
+            
+            <li><a href="Index.html">Inicio</a></li> 
+             <li><a href="reservas.html"> Reservas</a></li> 
+             <li><a href="Sobre%20nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="contacto.html" >Contáctanos</a></li>
+         
+		</ul>
+      </nav>
+       
+       
+        <!-- Formulario de contacto -->
+          <div class="formulario1">
+
+			<form method='post' action="Issamvolcom@gmail.com" class="form1">
+					<h3>Completa tu reserva </h3>
+				
+				<ul>						
+					<li> 
+						<label for="name">Nombre</label>
+						<input type='text' name='name' id='nombre' />
+						
+					</li> 
+					<li> 
+						<label for="email">1º Apellido</label>
+						<input type='text' name='apellido' id='apellido' />
+						
+					</li> 
+					<li> 
+						<label for="email">2º Apellido</label>
+						<input type='text' name='apellido' id='apellido' />
+						
+					</li> 
+					<li> 
+					    <label for="campo" id="campo">Campo</label>
+						<select name="Campo" id="opciones" >
+						    <option>Universidad de Almeria</option>
+						    <option>Benhadux</option>
+						    <option>Los Molinos</option>
+						    <option>El Oriente</option>
+						    <option>Campo de la Juventud</option>
+						</select>
+						
+					</li> 
+					<li class="date"> 
+                         <label for="fecha">Fecha</label>
+						 <input type="date" name="fechaReserva" step="1" min="2018-03-18" max="2018-12-31" value="2018-03-18" id="fecha">
+						
+					</li> 
+					<li> 
+					    <label for="hora" >Hora</label>
+						<input type="time" name="hora" min="10:00"
+                                 max="21:00" step="3600" id="hora">
+						
+					</li> 
+					
+					<input type= "button" value="Reservar" id="boton2">
+					
+                  
+				</ul> 
+			</form>  
+		</div>
+       
+        
+        
+    </body>
+</html>
+        
